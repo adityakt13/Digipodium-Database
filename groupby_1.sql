@@ -20,6 +20,3 @@ SELECT sum(amount) as total_amount , project_id
 FROM expenses
 GROUP BY project_id
 ORDER BY total_amount DESC;
-
-SELECT sum(amount) as master_amount
-FROM expenses;
